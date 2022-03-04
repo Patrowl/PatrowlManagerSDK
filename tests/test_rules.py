@@ -1,6 +1,6 @@
-from PatrowlManagerSDK.api import PatrowlArsenalApi
+from PatrowlManagerSDK.api import PatrowlManagerApi
 
-api = PatrowlArsenalApi(
+api = PatrowlManagerApi(
     url='http://localhost:8004',
     auth_token='78854fc93308b0cc49542d838e220aabb5351501'
 )

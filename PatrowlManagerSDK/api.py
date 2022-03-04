@@ -12,12 +12,12 @@ from PatrowlManagerSDK.exceptions import PatrowlException
 from PatrowlManagerSDK.constants import *
 
 
-class PatrowlArsenalApi:
+class PatrowlManagerApi:
     """Python API for PatrowlArsenal."""
 
     def __init__(self, url, auth_token, proxies={}, ssl_verify=False, timeout=10):
         """
-        Initialize a PatrowlArsenalAPI object.
+        Initialize a PatrowlManagerApi object.
 
         :param url: PatrOwl Manager URL
         :param auth_token: The API key
